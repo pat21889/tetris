@@ -12,7 +12,7 @@ this project are aiming for learning how to write python, implement game by use 
    venv\Scripts\activate
 
 3. install dependencies
-   pip install -r requirement.txt
+   pip install -r requirements.txt
 
 ---
 # Run
