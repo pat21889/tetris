@@ -21,3 +21,9 @@ def rotate_matrix(matrix: List[List[int]]) -> List[List[int]]:
             temp[col][old_rows_size-1-row] = matrix[row][col]
     
     return temp
+
+def flattern(matrix: List[List[int]]) -> List[int]:
+    if not matrix or not matrix[0]:
+        return []
+    
+    return [col for row in matrix for col in row]
