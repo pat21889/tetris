@@ -3,7 +3,7 @@ this project are aiming for learning how to write python, implement game by use 
 
 ---
 # Install
-1. clone the reposity
+1. clone the repository
    ```
    git clone https://github.com/pat21889/tetris.git
    cd tetris
