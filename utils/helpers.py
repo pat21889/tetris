@@ -22,7 +22,7 @@ def rotate_matrix(matrix: List[List[int]]) -> List[List[int]]:
     
     return temp
 
-def flattern(matrix: List[List[int]]) -> List[int]:
+def flatten(matrix: List[List[int]]) -> List[int]:
     if not matrix or not matrix[0]:
         return []
     
