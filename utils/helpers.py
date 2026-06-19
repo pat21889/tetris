@@ -1,8 +1,8 @@
 from typing import TypeVar, List
 
-numeric = TypeVar('numeric', int, float)
+Numeric = TypeVar('Numeric', int, float)
 
-def clamp(value: numeric, min_val: numeric, max_val: numeric) -> numeric:
+def clamp(value: Numeric, min_val: Numeric, max_val: Numeric) -> Numeric:
     return min(max_val, max(min_val, value))
 
 def rotate_matrix(matrix: List[List[int]]) -> List[List[int]]:
