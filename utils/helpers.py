@@ -3,9 +3,7 @@ from typing import TypeVar, List
 numeric = TypeVar('numeric', int, float)
 
 def clamp(value: numeric, min_val: numeric, max_val: numeric) -> numeric:
-    if min_val <= value <= max_val:
-        return value
-    return min_val if value < min_val else max_val
+    return min(max_val, max(min_val, value))
 
 def rotate_matrix(matrix: List[List[int]]) -> List[List[int]]:
     if not matrix or not matrix[0]:
